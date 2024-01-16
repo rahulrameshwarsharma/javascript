@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: border-box;
+}
+
+                                            /* "The root elements styles"  */
+
+body {
+    background-color: rgba(216, 227, 66, 0.75);
+}
+
+header {
+    height: 4rem;
+    width: 100vw;
+    margin-bottom: 2px;
+    background-color: #0f1111;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer {
+    height: 2rem;
+    width: 100vw;
+    margin-top: 2px;
+    background-color: #0f1111;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    bottom: 0px;
+}
+.linktags {
+    height: 4rem;
+    width: 100vw;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
