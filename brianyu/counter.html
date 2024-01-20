@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Counter</title>
+        <link rel="stylesheet" href="../style.css">
+    <script>
+            let counter = 0;
+            function runcount() {
+                // if we take the counter variable in an another variable it will start counting from zero
+                let run = counter;
+                counter++;
+
+                // alert (run);
+                // alert (counter);
+                document.querySelector('h2').innerHTML = run;
+                document.querySelector('h3').innerHTML = counter;
+
+                // show alert 
+                if (counter % 10 === 0) {
+                    alert (`counter is now ${counter}`);
+                }
+            }
+
+            // DOM manipulation using HTML elements
+
+            function test() {
+                let greet = document.querySelector('span');
+                if (greet.innerHTML === 'Login') {
+                    greet.innerHTML = 'Logout';
+                }
+                else {
+                    greet.innerHTML = 'Login';
+                }
+            }
+
+            // DOM Manipulation using ID selector
+            function idcall() {
+                let greetId = document.querySelector('#testId');
+                // console.log(greetId);
+                if (greetId.value === 'Login') {
+                    console.log(greetId.value);
+                    greetId.value = 'Logout';
+                    console.log(greetId.value);
+                }
+                else {
+                    greetId.value = 'Login';
+                    console.log(greetId.value);
+                }
+            }
+    </script>
+    </head>
+
+    <body>
+        <header>
+            <a href="./index.html">Back</a>
+            <a href="../index.html">Main page</a>
+        </header>
+
+        <div class="DOMdiv">
+            <div>Counting starts here from Zero <h2 class="count"></h2></div>
+            <div>Counting starts here from One <h3 class="count"></h3></div>
+            <button onclick="runcount()">count</button>
+        </div>
+
+        <div class="DOMdiv">
+            <span>Login</span>
+            <button onclick="test()">click</button>
+        </div>
+
+        <div class="DOMdiv">
+            <div id="testId" value="Login"></div>
+            <button onclick="idcall()">click</button>
+        </div>
+
+    <footer>This is footer</footer>
+    </body>
+</html>

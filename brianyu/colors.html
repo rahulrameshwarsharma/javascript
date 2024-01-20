@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color dropdown</title>
+    <link rel="stylesheet" href="../style.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', ()=> {
+            document.querySelector('select').onchange = function() {
+                document.querySelector('#hello').style.color = this.value;
+            }
+        });
+    </script>
+</head>
+<body>
+    <header>This is header</header>
+    <div class="colorsDiv">
+        <h1 id="hello">Hello!</h1>
+        <select>
+            <option selected>Default</option>
+            <option value="Black">Black</option>
+            <option value="Red">Red</option>
+            <option value="Blue">Blue</option>
+            <option value="Green">Green</option>
+        </select>
+    </div>
+    <footer></footer>
+</body>
+</html>
