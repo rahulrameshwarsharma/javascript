@@ -38,17 +38,20 @@
             // DOM Manipulation using ID selector
             function idcall() {
                 let greetId = document.querySelector('#testId');
-                // console.log(greetId);
-                if (greetId.value === 'Login') {
-                    console.log(greetId.value);
-                    greetId.value = 'Logout';
-                    console.log(greetId.value);
-                }
-                else {
-                    greetId.value = 'Login';
-                    console.log(greetId.value);
-                }
+               
+                    if (greetId.value === 'Login') {
+
+                        greetId.innerHTML = 'Logout';
+
+                    }
+                    else {
+                        
+                        greetId.value = 'Login';
+                        greetId.innerHTML = 'Login';
+                        console.log(greetId.value);
+                    }                
             }
+
     </script>
     </head>
 
@@ -70,7 +73,7 @@
         </div>
 
         <div class="DOMdiv">
-            <div id="testId" value="Login"></div>
+            <div id="testId">Login</div>
             <button onclick="idcall()">click</button>
         </div>
 
