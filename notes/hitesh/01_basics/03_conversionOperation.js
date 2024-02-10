@@ -62,3 +62,32 @@ let stringNumber = String(someNumber);
 console.log(stringNumber);
 
 console.log(typeof stringNumber);
+
+
+
+// *************************** Operations ***************************
+
+// Get negative value from a positive integer
+let value = 3
+let negValue = -value;
+
+console.log(negValue);
+
+                // Basic arithematic operations
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**2);      // for power of 2
+console.log(2/3);       // for divide
+console.log(2%2);       // for remainder
+
+let str1 = "hello"
+let str2 = " shiv"
+
+let str3 = str1 + str2;
+console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+
