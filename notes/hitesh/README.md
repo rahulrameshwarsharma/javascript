@@ -72,8 +72,9 @@
 ## comparision [file](/hitesh/01_basics/06_num_maths.js)
 
 
+## functions [file](./02_basics/03_functions.js)
+-   ### Implicite return vs Explicite return
 
-## comparision [file](/hitesh/01_basics/04_comparision.js)
 ## comparision [file](/hitesh/01_basics/04_comparision.js)
 ## comparision [file](/hitesh/01_basics/04_comparision.js)
 ## comparision [file](/hitesh/01_basics/04_comparision.js)

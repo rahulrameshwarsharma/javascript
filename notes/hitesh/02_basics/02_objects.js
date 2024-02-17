@@ -2,8 +2,8 @@
 
 // Object Literals: Objects can be made singleton only in the case of constructors.
 
-const User = new Object()       // this is a singleton object
-const User = {}                 // this is a non singleton object
+// const User = new Object()       // this is a singleton object
+// const User = {}                 // this is a non singleton object
 
 const mySym = Symbol("key1");
 
