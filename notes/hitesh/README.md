@@ -75,6 +75,23 @@
 ## functions [file](./02_basics/03_functions.js)
 -   ### Implicite return vs Explicite return
 
+-   ### IIFE: Immediately Invoked Function Expressions
+
+## execution context and call stack
+-   Global execution context
+
+## Control flow
+-   if else, conditions, scope, multiple line using (,) commas,
+-   && and || operators
+-   switch : case and keys, break;
+-   falsy and truthy values
+    -   ### Falsy and truthy values
+        ![falsy values](../images/image.png).
+
+-   check empty array and objects.
+-   Nullish Coalescing Operator (??) : works on null and undefined.
+-   Terniary Operator
+
 ## comparision [file](/hitesh/01_basics/04_comparision.js)
 ## comparision [file](/hitesh/01_basics/04_comparision.js)
 ## comparision [file](/hitesh/01_basics/04_comparision.js)
