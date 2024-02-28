@@ -92,7 +92,23 @@
 -   Nullish Coalescing Operator (??) : works on null and undefined.
 -   Terniary Operator
 
-## comparision [file](/hitesh/01_basics/04_comparision.js)
+## DOM [file](./DOM/nodeListArray.js)
+
+-   ### NodeList
+    -   [16:00 Important discussion about NodeList](https://www.youtube.com/watch?v=xAvTgCsCHLs&t=960s)
+
+## parent children property:    []((https://www.youtube.com/watch?v=xAvTgCsCHLs&t=960s))
+-   When we take a variable in DOM, We can excess multiple DOM manipulation properties such as parent, child, firstElementChild, lastElementChild, parentElement, nextElementSibling, ChildNodes etc.
+
+####    Some better approaches
+-   Use setAttribute instead of .innerHTML
+    -       [26:00 better approach](https://www.youtube.com/watch?v=xAvTgCsCHLs&t=960s)
+-   Why to use appendChild over innerHTML
+    -   [innerHTML VS appendChild](https://www.youtube.com/watch?v=VQlY-X_eeTE&t=428s)
+
+-   Traversing of document while using .innerHTML so to avoid this use appendChild, it add node text.
+
+
 ## comparision [file](/hitesh/01_basics/04_comparision.js)
 ## comparision [file](/hitesh/01_basics/04_comparision.js)
 ## comparision [file](/hitesh/01_basics/04_comparision.js)

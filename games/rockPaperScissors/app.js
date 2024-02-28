@@ -20,9 +20,11 @@ function generateComputerChoice () {
     
     if (randomNumber === 1) {
         computerChoices = 'rock'
-    }else if(randomNumber === 2){
+    }
+    if(randomNumber === 2){
         computerChoices = 'paper'
-    }else{
+    }
+    if(randomNumber === 3){
         computerChoices = 'scissor'
     }
 
@@ -31,25 +33,23 @@ function generateComputerChoice () {
 
 function getResult() {
     if (computerChoice === userChoice) {
-        results = 'It is a draw!'
-    }
-
-    else if (computerChoice === 'rock' && userChoice === 'paper') {
+        return results = 'It is a draw!'
+    }  
+    console.log(`Computer choices: ${results}`);
+    if (computerChoice === 'rock' && userChoice === 'paper') {
         results = 'You Win!'
-    }else if (computerChoice === 'rock' && userChoice === 'scissors'){
+    }
+    if (computerChoice === 'rock' && userChoice === 'scissors'){
+        results = 'You lose!';
+    }   
+    if (computerChoice === 'paper' && userChoice === 'rock') {
         results = 'You lose!';
     }
-    
-    else if (computerChoice === 'paper' && userChoice === 'rock') {
-        results = 'You lose!';
-    }else if (computerChoice === 'paper' && userChoice === 'scissors'){
+    if (computerChoice === 'paper' && userChoice === 'scissors'){
         results = 'You Win!';
     }
-    
-    else if (computerChoice === 'scissors' && userChoice === 'rock') {
+    if (computerChoice === 'scissors' && userChoice === 'rock') {
         results = 'You lose!';
-    }else {
-        results = 'You Win!';
     }
 
     resultDisplay.innerHTML = results;
