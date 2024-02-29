@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    /* height: 500px;
+    width: 500px; */
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin: 20px;
+    padding-right: 20px;
+}
+
+button {
+    margin: 10px;
+}
