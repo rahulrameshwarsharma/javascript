@@ -109,7 +109,11 @@
 -   Traversing of document while using .innerHTML so to avoid this use appendChild, it add node text.
 
 
-## comparision [file](/hitesh/01_basics/04_comparision.js)
+## Events: [file](./events/events.js)
+
+
+
+
 ## comparision [file](/hitesh/01_basics/04_comparision.js)
 ## comparision [file](/hitesh/01_basics/04_comparision.js)
 ## comparision [file](/hitesh/01_basics/04_comparision.js)
