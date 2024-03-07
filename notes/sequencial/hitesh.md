@@ -111,6 +111,10 @@
 
 ## Events: [file](./events/events.js)
 
+-   Event propogation
+-   Event capture through .stopPropogation()
+-   Even bubble
+
 
 
 
