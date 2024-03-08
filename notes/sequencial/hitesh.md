@@ -114,7 +114,13 @@
 -   Event propogation
 -   Event capture through .stopPropogation()
 -   Even bubble
+-   Prevent default
 
+## Async Javascript
+-   Default behaviour of javascript is synchronous and Single threaded
+
+-   Execution context:
+    -   
 
 
 
