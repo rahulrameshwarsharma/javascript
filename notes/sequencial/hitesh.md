@@ -120,7 +120,9 @@
 -   Default behaviour of javascript is synchronous and Single threaded
 
 -   Execution context:
-    -   
+    -
+Memory
+
 
 
 
