@@ -1,8 +1,20 @@
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
-    border: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
 }
 
 #Green {
@@ -14,10 +26,18 @@
 #Blue {
     background-color: blue;
 }
+#white {
+    background-color: white;
+    color: black;
+}
+#random {
+    background-color: aqua;
+}
 
-button {
+.txt, button {
     border-radius: 5px;
-    width: 100px;
+    text-align: center;
+    width: 150px;
     margin: 20px;
-    height: 40px;
+    height: 60px;
 }

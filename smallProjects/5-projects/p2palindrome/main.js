@@ -14,6 +14,10 @@ function reverseString(str) {
 
 function check() {
     const value = input.value;
+    if (!value) {
+        return alert("write something");
+    }
+
     const reverse = reverseString(value);
     // alert(reverse);
 
