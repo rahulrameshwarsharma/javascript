@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo  List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <details>
-        <summary>Heading</summary>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum asperiores facilis ipsum temporibus harum itaque dignissimos officiis voluptatem saepe consequuntur corporis aut nulla, accusamus cupiditate a quisquam! Inventore, magni repellendus?
-    </details>
+    <div class="mainWrapper">
+        
+        <h1>TODO List</h1>
+        <h2>Items</h2>
+        <div class="itemContainer" id="items"></div>
+
+        <input id="itemInput" type="text" placeholder="Add an Item" />
+        <button onclick="addItems()">Add Items</button>
+
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>

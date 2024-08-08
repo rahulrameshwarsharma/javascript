@@ -1,0 +1,35 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    /* border: 0; */
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+p {
+    display: inline;
+    margin-right: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+.mainWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.itemContainer {
+    /* display: inline; */
+}
+
+input {
+    width: 100px;
+    margin-bottom: 7px;
+}
