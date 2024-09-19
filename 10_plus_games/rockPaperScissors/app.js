@@ -17,40 +17,44 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
 
 function generateComputerChoice () {
     const randomNumber = Math.floor(Math.random() * 3) +1;
+    console.log(randomNumber);
     
     if (randomNumber === 1) {
-        computerChoices = 'rock'
+        computerChoices = 'rock';
     }
     if(randomNumber === 2){
-        computerChoices = 'paper'
+        computerChoices = 'paper';
     }
     if(randomNumber === 3){
-        computerChoices = 'scissor'
+        computerChoices = 'scissor';
     }
-
     computerChoice.innerHTML = computerChoices;
+    // console.log(computerChoice);
 }
 
 function getResult() {
-    if (computerChoice === userChoice) {
-        return results = 'It is a draw!'
-    }  
-    console.log(`Computer choices: ${results}`);
-    if (computerChoice === 'rock' && userChoice === 'paper') {
-        results = 'You Win!'
+    console.log(computerChoices, userChoiceDisplay)
+
+    if (computerChoices === userChoiceDisplay) {
+        results = 'It is a draw!';
     }
-    if (computerChoice === 'rock' && userChoice === 'scissors'){
-        results = 'You lose!';
-    }   
-    if (computerChoice === 'paper' && userChoice === 'rock') {
-        results = 'You lose!';
-    }
-    if (computerChoice === 'paper' && userChoice === 'scissors'){
+    if (computerChoices === 'rock' && userChoiceDisplay === 'paper') {
         results = 'You Win!';
     }
-    if (computerChoice === 'scissors' && userChoice === 'rock') {
+    if (computerChoices === 'rock' && userChoiceDisplay === 'scissor'){
+        results = 'You lose!';
+    }   
+    if (computerChoices === 'paper' && userChoiceDisplay === 'rock') {
         results = 'You lose!';
     }
+    if (computerChoices === 'paper' && userChoiceDisplay === 'scissor'){
+        results = 'You Win!';
+    }
+    if (computerChoices === 'scissor' && userChoiceDisplay === 'rock') {
+        results = 'You lose!';
+    }
+
+    console.log(`Computer choices: ${results}`);
 
     resultDisplay.innerHTML = results;
 }
